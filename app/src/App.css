@@ -1,0 +1,4 @@
+exports = module.exports = require("../node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.id, ".photos {\n    display: grid;\n    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));\n}\n.photos img {\n  width: 100%;\n}\n.files-dropzone {\n  height: 40px;\n  line-height: 40px;\n  text-align: center;\n}\n.files>div {\n  border: 1px solid #ced4da;\n    border-radius: .25rem;\n}\n.files>div:hover {\n  cursor: pointer;\n}\n\n.modal {\n  display:    block;\n  position:   fixed;\n  z-index:    1000;\n  top:        0;\n  left:       0;\n  height:     100%;\n  width:      100%;\n  background: rgba( 255, 255, 255, .8 )\n  url('https://i.stack.imgur.com/FhHRx.gif')\n  50% 50%\n  no-repeat;\n}\nbody.loading {\n  overflow: hidden;\n}\nbody.loading .modal {\n  display: block;\n}\n.userItem {\n  border-bottom: 1px solid #000;\n}", ""]);
+
