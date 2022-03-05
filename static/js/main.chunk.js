@@ -418,7 +418,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 105
       },
       __self: this
-    }, "Open the URL: https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed -> Press Ctrl + F to find keyword 'accessToken' -> String with begin of 'EAAA...' is your Facebook Access Token."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Form"].Control, {
+    }, "Open the URL: https://business.facebook.com/content_management -> Press Ctrl + F to find keyword 'accessToken' -> String with begin of 'EAAA...' is your Facebook Access Token."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["Form"].Control, {
       type: "text",
       placeholder: "Enter your Facebook Access Token here (EAAA...)",
       value: this.state.token,
